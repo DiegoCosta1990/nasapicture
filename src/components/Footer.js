@@ -15,10 +15,10 @@ function Footer() {
             </Grid>
             <br/>
             <br/>
-            <br/>
             <Grid className="footer-container" container spacing={1} direction="row" justify="space-evenly" alignItems="center" alignContent="center" wrap="nowrap">
               <Typography id="text_movement9" variant="h6" style={{color: 'white', fontFamily:'Cormorant'}}><i>Diego Costa Developer @ 2020</i></Typography>  
-            </Grid>                     
+            </Grid>
+            <br/>                     
         </Container>
     )
 }

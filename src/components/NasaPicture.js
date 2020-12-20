@@ -158,7 +158,6 @@ function NasaPicture() {
                             <br/>
                             <Typography id="text_movement3" className="explanation" variant="caption">{picture.explanation}</Typography>
                             <br/>
-                            <br/>
                             <BackToHomeButton />
                             <br/>
                             <br/>

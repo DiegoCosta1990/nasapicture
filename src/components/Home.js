@@ -68,8 +68,8 @@ function Home() {
         <Container className="hero" maxWidth="xxl"></Container>     
 
         <Grid className="container" container direction="column" justify="center" alignItems="center" alignContent="center" wrap="nowrap">
-                {h1Mobile ? <Typography style={{ fontSize: '4.5rem'}} id="text" variant="h1" color="initial">Welcome to the NASA A.P.O.D</Typography> : <Typography id="text" variant="h1" color="initial">Welcome to the NASA A.P.O.D</Typography> }
-                <Typography id="text" variant="h4" color="initial">Press the button below and get your Astronomic Picture of the Day </Typography>
+                {h1Mobile ? <Typography style={{ fontSize: '3.5rem'}} id="text" variant="h1" color="initial">Welcome to the NASA A.P.O.D</Typography> : <Typography id="text" variant="h1" color="initial">Welcome to the NASA A.P.O.D</Typography> }
+                {h1Mobile ? <Typography style={{ fontSize: '2rem'}} id="text" variant="h4" color="initial">Press the button below and get your Astronomic Picture of the Day </Typography> : <Typography id="text" variant="h4" color="initial">Press the button below and get your Astronomic Picture of the Day </Typography> }
                 <br/>
                 <Typography id="text" variant="h5" color="initial">Powered by the NASA OPEN API</Typography>
                 <br/>
@@ -79,8 +79,6 @@ function Home() {
                         Pic of the Day
                     </Link>
                 </Button>
-                <br/>
-                <br/>
                 <br/>
                 <br/>
                 <Footer />
