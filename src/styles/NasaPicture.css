@@ -1,0 +1,46 @@
+.title {
+    text-align: center;
+    color: white;
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}
+.page_title {
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.explanation {
+    text-align: justify;
+    width: 80%;
+    margin-bottom: 35px;
+    color: white;
+
+}
+.nasa_picture {
+    background-image: url('../assets/picture-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blur {
+    backdrop-filter: blur(2px);
+    border-radius: 590px;
+}
+#text_movement1, #text_movement2, #text_movement3, #text_movement4, #text_title {
+    font-family: 'Cormorant', Sans-Serif;
+
+}
+#text_movement1 {
+    font-size: 3em;
+}
+
+#text_movement3 {
+    font-size: 1em;
+}
